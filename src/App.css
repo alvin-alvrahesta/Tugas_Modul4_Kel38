@@ -1,0 +1,88 @@
+body {
+  background-color: rgb(230, 230, 230);
+  color: darkslategray;
+}
+
+header {
+  display: flex;
+  background-color: #1b3677;
+  justify-content: space-between;
+  padding: 0 60px;
+  align-items: center;
+  height: 10vh;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.title p {
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.text {
+  font-size: 24px;
+  color: rgb(241, 241, 241);
+  text-decoration: none;
+}
+
+.text:hover {
+  color: lightblue;
+  cursor: pointer;
+}
+
+.navtext2 {
+  margin: 0px 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+
+.titleWrapper {
+  padding: 20px 0;
+  text-align: center;
+}
+
+.title {
+  color: rgb(211, 211, 211);
+  font-weight: bold;
+  font-size: 42px;
+}
+
+::placeholder {
+  /* Microsoft Edge */
+  color: rgb(144, 174, 194);
+}
+
+input {
+  border: blanchedalmond;
+  background-color: #20232a;
+  padding: 10px 20px 10px 5px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 16px;
+}
+
+.Button {
+  background-color: darkslategrey;
+  color: rgb(240, 240, 240);
+  font-size: 18px;
+  padding: 8px;
+  border-width: 0px;
+  font-weight: bold;
+  border-radius: 2px;
+  text-align: center;
+  cursor: pointer;
+  min-width: 100px;
+}
+
+ul li {
+  color: rgb(37, 37, 37);
+}
